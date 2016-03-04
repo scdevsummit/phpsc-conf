@@ -1,6 +1,6 @@
 <?php
-use Lcobucci\DependencyInjection\XmlContainerBuilder;
+use Lcobucci\ActionMapper2\DependencyInjection\Container;
 
-$builder = new XmlContainerBuilder();
+$builder = new Container();
 
 return $builder->getContainer(require __DIR__ . '/di-config.php');

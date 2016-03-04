@@ -91,7 +91,7 @@ class TalkRepository extends EntityRepository
     public function findByEvent(Event $event, $approvedOnly)
     {
         $query = $this->createQueryBuilder('talk')
-                      ->andWhere('talk.event = ?1')
+                      ->where('talk.event = ?1')
                       ->setParameter(1, $event)
                       ->orderBy('talk.title');
 

@@ -20,10 +20,10 @@
     ],
     "require" : {
         "lcobucci/display-objects" : "dev-develop@dev",
-        "lcobucci/action-mapper" : "dev-develop@dev",
+        "lcobucci/action-mapper" : "1.0.0-alpha17",
         "lcobucci/social" : "*@dev",
         "phpsc/pagseguro" : "1.0.0alpha4@dev",
-        "doctrine/orm" : "~2.4",
+        "doctrine/orm" : "~2.5",
         "swiftmailer/swiftmailer": "*",
         "lcobucci/em-data-fixtures": "~1.0",
         "doctrine/migrations": "*@dev",
